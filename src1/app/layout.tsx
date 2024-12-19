@@ -4,8 +4,8 @@ import type { Metadata } from 'next'
 
 
 export const metadata: Metadata = {
-  title: 'Meu Site - Aprendendo NextJS',
-  description: 'Site completo para praticar nextjs com sujeito programador',
+  title: 'Aprendendo NextJS',
+  description: 'Buscando conhecimento',
 }
 
 export default function RootLayout({
@@ -14,10 +14,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body>
+    <html lang='pt'>
+      <body> 
         <Header/>
         {children}
+
       </body>
     </html>
   )
